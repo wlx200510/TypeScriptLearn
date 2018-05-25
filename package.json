@@ -1,0 +1,27 @@
+{
+  "name": "learn_ts",
+  "version": "1.0.0",
+  "description": "> 参考的`gitbook`",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "serve": "browser-sync start --file ./src/**/* --server ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlx200510/TypeScriptLearn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlx200510/TypeScriptLearn/issues"
+  },
+  "homepage": "https://github.com/wlx200510/TypeScriptLearn#readme",
+  "dependencies": {
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}

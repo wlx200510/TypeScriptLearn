@@ -1,0 +1,53 @@
+html, body {
+  margin: 1em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 18px;
+  margin: 1em 0 0 0;
+}
+.meta {
+  font-size: 12px;
+  margin: 1em 0 0 0;
+}
+#app {
+  margin-top: 1em;
+}
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+input[type="text"] {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0;
+  vertical-align: middle;
+}
+button {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 1em;
+  vertical-align: middle;
+  margin-left: 0.5em;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+.todo-item {
+  vertical-align: middle;
+}
+.del {
+  margin-left: 0.5em;
+  line-height: 16px;
+  vertical-align: middle;
+  padding: 0 0.4em;
+  color: red;
+}
